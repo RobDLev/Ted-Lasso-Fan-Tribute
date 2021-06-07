@@ -13,7 +13,7 @@ export default function App() {
           src="AFC Richmond Crest.png"
         />
       </header>
-      <nav id="main-menu">
+      <nav id="nav-bar">
         <ul>
           <li>Covid-19</li>
           <li>Tickets</li>
@@ -24,6 +24,7 @@ export default function App() {
           <li>Stadium</li>
           <li>Shop</li>
         </ul>
+        <i id="search-icon" class="fas fa-search"></i>
       </nav>
     </div>
   );

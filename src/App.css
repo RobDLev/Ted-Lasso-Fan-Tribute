@@ -18,7 +18,7 @@
   display: block;
   height: 100%;
 }
-.App #main-menu {
+.App #nav-bar {
   position: fixed;
   top: 92px;
   width: 100%;
@@ -40,4 +40,12 @@
   text-align: left;
   text-size-adjust: 100%;
   text-transform: uppercase;
+}
+.App #search-icon {
+  position: relative;
+  top: -50px;
+  color: #ffffff;
+  font-size: 22px;
+  float: right;
+  margin-right: 15px;
 }
