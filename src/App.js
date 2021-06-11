@@ -12,6 +12,52 @@ export default function App() {
           alt="Greyhounds Logo"
           src="AFC Richmond Crest.png"
         />
+        <div className="social_sharing">
+          <a
+            href="https://www.facebook.com/TedLassoSeason2/"
+            target="_blank"
+            rel="nofollow noreferrer"
+          >
+            <img
+              id="social-link"
+              src="Facebook_logo_(square).png"
+              alt="facebook link"
+            />
+          </a>
+          <a
+            href="https://twitter.com/afcrichmond?lang=en"
+            target="_blank"
+            rel="nofollow noreferrer"
+          >
+            <img
+              id="social-link"
+              src="Twitter social icons - square - blue.png"
+              alt="twitter link"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/afc_richmond/?hl=en"
+            target="_blank"
+            rel="nofollow noreferrer"
+          >
+            <img
+              id="social-link"
+              src="Instagram_Glyph_Gradient_RGB.png"
+              alt="instagram link"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/c/AppleTV/featured"
+            target="_blank"
+            rel="nofollow noreferrer"
+          >
+            <img
+              id="social-link"
+              src="youtube_social_square_red.png"
+              alt="youtube link"
+            />
+          </a>
+        </div>
       </header>
       <nav id="nav-bar">
         <ul>

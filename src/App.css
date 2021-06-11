@@ -18,6 +18,22 @@
   display: block;
   height: 100%;
 }
+
+.App .social_sharing {
+  display: block;
+  position: fixed;
+  top: 65px;
+  right: 10px;
+  width: 145px;
+  background: none;
+}
+
+.App #social-link {
+  width: 24px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
 .App #nav-bar {
   position: fixed;
   top: 92px;
