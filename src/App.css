@@ -65,3 +65,6 @@
   float: right;
   margin-right: 15px;
 }
+.App .card-img-top {
+  width: 400px;
+}
