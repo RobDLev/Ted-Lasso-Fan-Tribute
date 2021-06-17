@@ -1,11 +1,10 @@
-.App .container {
-  width: 100vw;
+.App #background-picture {
+  padding: 0;
+  margin: 0;
+  background: url("blueSkies.jpeg");
+  background-attachment: fixed;
 }
-.App #blue-skies {
-  max-width: 100%;
-  height: auto;
-  max-height: 100%;
-}
+
 .App #greyhounds-logo {
   max-height: 150px;
   max-width: 150px;
@@ -34,9 +33,10 @@
   border-radius: 3px;
 }
 
-.App #nav-bar {
+.App .navbar {
   position: fixed;
   top: 92px;
+  right: 0px;
   width: 100%;
   background: #00245d;
 }
@@ -59,12 +59,16 @@
 }
 .App #search-icon {
   position: relative;
-  top: -50px;
+  top: -15px;
   color: #ffffff;
   font-size: 22px;
   float: right;
-  margin-right: 15px;
+  margin-right: 10px;
+}
+
+.App .row {
+  margin: 0 10px;
 }
 .App .card-img-top {
-  width: 400px;
+  width: 350px;
 }
